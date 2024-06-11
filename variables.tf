@@ -1,3 +1,9 @@
+variable "waypoint_application" {
+  type        = string
+  default     = ""
+  description = "Waypoint application name."
+}
+
 variable "resource_group_location" {
   type        = string
   default     = "eastus"
